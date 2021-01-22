@@ -12,13 +12,9 @@
         var buy = this;
         buy.buyItems = ShoppingListCheckOffService.getItemstoBuy();
         buy.removeItem = function (index) {
-            try {
                 ShoppingListCheckOffService.removeItem(index);
-            } catch (error) {
-                ListeningStateChangedEvent.errorMessage = error.message;
             }
         }
-    }
 
     AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
     function AlreadyBoughtController(ShoppingListCheckOffService) {
