@@ -28,7 +28,7 @@
 
         // List of shopping items
         var buyItems = [{ name: 'mangos', quantity: 3 },
-        { name: 'apples', quantity: 2 }, { name: 'avocados', quantity: 3 }, { name: 'bananas', quantity: 8 }];
+        { name: 'apples', quantity: 2 }, { name: 'avocados', quantity: 3 }, { name: 'bananas', quantity: 10 }, {name: 'plums', quantity: 8}];
 
         var boughtItems = [];
 
